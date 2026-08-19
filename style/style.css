@@ -1,0 +1,83 @@
+@charset "Utf-8";
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('.fonts/roboto-v30-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto-v30-latin-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 300px;
+}
+
+h2{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+button{
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero .signin p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header{
+    background-color: #1F2937;
+}
+
+.hero{
+    background-color: #1F2937;
+}
+
+.content-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.footer{
+    background-color: #1F2937;
+}
+
+.call{
+    background-color: #3882F6;
+}
+
+.quotes{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
