@@ -23,10 +23,12 @@
 
 body{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
-
-img{
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 200px;
+    background-color: black;
+    flex-wrap: wrap;
 }
 
 h2{
@@ -41,43 +43,145 @@ button{
     padding: 5px 15px;
     border-radius: 5px;
 }
+/* Header */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+    flex-wrap: wrap;
+}
 
 .logo{
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+/* Hero */
+
+.hero {
+    background-color: #1F2937;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+}
+
+.image{
+    width: 50%;
+    height: auto;
+}
+
+img{
+    width: auto;
+    height: 200px;
+}
+
 .hero .signin p{
-    font-size: 18px;
+    font-size: 11px;
     color: #E5E7EB;
 }
 
-.header{
-    background-color: #1F2937;
+.hero button{
+    margin-top: 10px;
 }
 
-.hero{
-    background-color: #1F2937;
-}
+/* Content */
 
 .content-title{
-    font-size: 36px;
+    font-size: 26px;
+    text-align: center;
+    background-color: white;
     color: #1F2937;
     font-weight: 900;
+    padding: 30px;
+}
+.squares{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px 70px 200px;
+    gap: 20px;
+
 }
 
-.footer{
-    background-color: #1F2937;
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.call{
-    background-color: #3882F6;
+.card p{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(133, 132, 132);
+
+}
+
+.card img{
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    height: 100px;
 }
 
 .quotes{
     background-color: #E5E7EB;
-    font-size: 36px;
-    color: #1F2937;
+    padding:90px 200px;
+    font-size: 26px;
+    color: #4b535e;
     font-weight: 300;
     font-style: italic;
 }
+
+.quotes p{
+    text-align: end;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.call {
+    background-color: white;
+    padding: 60px 150px;
+}
+
+.banner{
+    padding: 40px 50px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .banner-text h3{
+    font-size: 15px;
+}
+.banner .banner-text p {
+    font-size: 11px;
+}
+
+/* Footer */
+
+.footer{
+    background-color:#1F2937;
+    color: white;
+    padding: 25px 0px;
+    font-size: 11px;
+    text-align: center;
+}
+
